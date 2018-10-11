@@ -164,6 +164,7 @@ set(msg_files
     "msg/TrajectoryPoint1DMessage.msg"
     "msg/UIConnectedPacket.msg"
     "msg/UIPositionCheckerPacket.msg"
+    "msg/ValkyrieHandFingerTrajectoryMessage.msg"
     "msg/ValveLocationPacket.msg"
     "msg/VehiclePosePacket.msg"
     "msg/VideoPacket.msg"
