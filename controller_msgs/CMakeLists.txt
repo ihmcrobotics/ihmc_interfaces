@@ -138,6 +138,7 @@ set(msg_files
     "msg/QuadrupedBodyHeightMessage.msg"
     "msg/QuadrupedBodyOrientationMessage.msg"
     "msg/QuadrupedBodyPathPlanMessage.msg"
+    "msg/QuadrupedBodyTrajectoryMessage.msg"
     "msg/QuadrupedFootstepStatusMessage.msg"
     "msg/QuadrupedGroundPlaneMessage.msg"
     "msg/QuadrupedRequestedSteppingStateMessage.msg"
