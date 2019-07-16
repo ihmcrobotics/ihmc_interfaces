@@ -1,4 +1,4 @@
-# This message is part of the IHMC footstep planning module.
+# This message is part of the IHMC quadruped footstep planning module.
 
 # Unique ID used to identify this message, should preferably be consecutively increasing.
 uint32 sequence_id
@@ -12,13 +12,12 @@ byte FOOTSTEP_PLANNING_RESULT_PLANNER_FAILED = 5
 
 int32 NO_PLAN_ID = -1
 
-FootstepDataListMessage footstep_data_list
+QuadrupedTimedStepListMessage footstep_data_list
 byte footstep_planning_result 255
 int32 plan_id -1
+float64 time_taken -1
 
 PlanarRegionsListMessage planar_regions_list
 
 geometry_msgs/Point[] body_path
 geometry_msgs/Pose low_level_planner_goal
-
-FootstepPlanningStatistics footstep_planning_statistics
