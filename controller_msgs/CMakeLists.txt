@@ -15,7 +15,7 @@ find_package(geometry_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
-#Dynamically select all msg files
+#In order to update the list in case new files, "touch" this CMakeLists.txt file
 file(GLOB msg_files RELATIVE ${CMAKE_CURRENT_LIST_DIR} "msg/*.msg")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
